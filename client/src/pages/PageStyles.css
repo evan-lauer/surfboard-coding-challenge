@@ -1,0 +1,137 @@
+.middleContentBox {
+    background: lightblue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    height: 80%;
+    width: 50%;
+    margin: auto auto 25px auto;
+    -webkit-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    border: rgb(25, 30, 34) solid 3px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.rightContentBox {
+    text-align: center;
+    background: lightblue;
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    top: 10%;
+    bottom: 10%;
+    right: 15px;
+    margin: auto auto 25px auto;
+    -webkit-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    border: rgb(25, 30, 34) solid 3px;
+    border-radius: 2px;
+    overflow-y: auto;
+}
+
+.meeting {
+    border: black solid 1px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 7px;
+}
+
+.meeting:hover {
+    cursor: pointer;
+}
+
+
+.headerBox {
+    text-align: center;
+    background: lightblue;
+    position: absolute;
+    top: 10%;
+    bottom: 90%;
+    right: 0;
+    left: 0; 
+    height: 10%;
+    width: 50%;
+    margin: auto auto auto auto;
+    -webkit-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    border: rgb(25, 30, 34) solid 3px;
+    border-radius: 2px;
+}
+
+.editBox {
+    padding: 20px 20px 10px 10px;
+    text-align: center;
+    background: lightblue;
+    position: absolute;
+    
+    height: 80%;
+    width: 20%;
+    top: 10%;
+    bottom: 10%;
+    left: 15px; 
+    margin: auto auto auto auto;
+    -webkit-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    border: rgb(25, 30, 34) solid 3px;
+    border-radius: 2px;
+}
+
+.loginContainer {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0; 
+    background: lightblue;
+    display: inline-block;
+    -webkit-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    -moz-box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    box-shadow: 24px 29px 106px -34px rgba(0,0,0,0.75);
+    border: rgb(25, 30, 34) solid 3px;
+    border-radius: 2px;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.loginContent {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    padding: auto;
+    margin: auto;
+}
+
+.loginContainer > .loginContent > span {
+    display: inline-block;
+    vertical-align: top;
+}
+.loginContainer > .loginContent > span > button {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.loginContainer > .loginContent > span > input {
+    height: 20px; 
+    margin: 5px;
+}
+
+.descriptionEdit {
+    height: 40px;
+}
+
+.timeEstEdit {
+    width: 40px;
+}
